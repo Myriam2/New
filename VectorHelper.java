@@ -68,7 +68,7 @@ for (i=0; i<this.taille; i++)
 }
 }
 
-public void invertion_vector() //inversion de l'ordre des elements du vecteur
+public void invertion_vector2() //inversion de l'ordre des elements du vecteur
 {
 	int tab1[] = new int[this.taille];
 	int i,j=0;
