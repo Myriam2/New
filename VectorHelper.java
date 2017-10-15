@@ -68,7 +68,7 @@ for (i=0; i<this.taille; i++)
 }
 }
 
-public void invert_vector()
+public void invertion_vector() //inversion de l'ordre des elements du vecteur
 {
 	int tab1[] = new int[this.taille];
 	int i,j=0;
@@ -100,7 +100,7 @@ public int get_tab_case(int i)
 	return(this.tab[i]);
 }
 	
-	public static int[] aleatoireInt(int[] tab) {    // le but de cette methode est de generer des entier aleatoirement  
+public static int[] aleatoireInt(int[] tab) {    // le but de cette methode est de generer des entier aleatoirement  
         int k = 0, valeur, i = 0;
         boolean existe = false;;
         Random r = new Random();
