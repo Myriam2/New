@@ -37,7 +37,7 @@ public class VectorHelper {
 
 	}
 
-public void min_max()
+public void return_min_max()
 
 {
 	int i;
