@@ -99,6 +99,7 @@ public int get_tab_case(int i)
 {
 	return(this.tab[i]);
 }
+	
 	public static int[] aleatoireInt(int[] tab) {    // le but de cette methode est de generer des entier aleatoirement  
         int k = 0, valeur, i = 0;
         boolean existe = false;;
@@ -122,4 +123,13 @@ public int get_tab_case(int i)
         }
         return tab;
     }
+public void multiplication(int x) //multiplication par x
+{
+	int i;
+	for (i=0; i<this.taille; i++)
+	{
+		this.tab[i]=x*this.tab[i];
+	}
+
+	}
 }
