@@ -64,7 +64,7 @@ public void affich_vect()
 int i ;
 for (i=0; i<this.taille; i++)
 {
- System.out.print(this.tab[i]+"|");
+ System.out.print("|"+this.tab[i]+"|");
 }
 }
 
