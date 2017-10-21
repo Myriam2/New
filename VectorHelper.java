@@ -5,12 +5,12 @@ public class VectorHelper {
  * Date : 14/10/2017
  *  @author dell
  *  @version 1.0
- * la classe VectorHelper assure les opÃ©rations suivantes :
- *   â€¢ Trier les Ã©lÃ©ments dâ€™un vecteur
- *   â€¢ Sommer deux vecteurs. Elle gÃ©nÃ©re une exception si les deux vecteurs ont des  tailles diffÃ©rentes
- *   â€¢ Inverser les Ã©lÃ©ments dâ€™un vecteur
- *   â€¢ Obtenir simultanÃ©ment le minimum et le maximum dâ€™un vecteur
- *   â€¢ Appliquer une formule (multiplication par 10 ) sous forme de fonction Ã  tous les Ã©lÃ©ments dâ€™un vecteur
+ * la classe VectorHelper assure les opérations suivantes :
+ *   • Trier les éléments d’un vecteur
+ *   • Sommer deux vecteurs. Elle génére une exception si les deux vecteurs ont des  tailles différentes
+ *   • Inverser les éléments d’un vecteur
+ *   • Obtenir simultanément le minimum et le maximum d’un vecteur
+ *   • Appliquer une formule (multiplication par 10 ) sous forme de fonction à tous les éléments d’un vecteur
  *
  *
  */
@@ -37,7 +37,7 @@ public class VectorHelper {
 
 	}
 
-public void return_min_max()
+public void min_max()
 
 {
 	int i;
@@ -68,7 +68,7 @@ for (i=0; i<this.taille; i++)
 }
 }
 
-public void invertion_vector2() //inversion de l'ordre des elements du vecteur
+public void invert_vector()
 {
 	int tab1[] = new int[this.taille];
 	int i,j=0;
@@ -99,37 +99,4 @@ public int get_tab_case(int i)
 {
 	return(this.tab[i]);
 }
-	
-public static int[] aleatoireInt(int[] tab) {    // le but de cette methode est de generer des entier aleatoirement  
-        int k = 0, valeur, i = 0;
-        boolean existe = false;;
-        Random r = new Random();
-
-        for (i = 0; i < tab.length; i++) {
-            existe = false;
-            valeur = r.nextInt(borneSuperieur);
-
-            for (k = 0; k < i; k++) {// on cherche la nouvelle valeur si elle existe  parmis les valeurs dÃ©ja inserÃ©es
-                if (tab[k] == valeur) {
-                    existe = true;
-                }
-            }
-            if (existe == false) {// si elle n'existe pas on l'insere
-                tab[i] = valeur;
-            } else {
-                i = i - 1;// sinon puisue on a travaillÃ© avec une boucle pour l'indice i est incremenrÃ© automatiuement 
-                //alors on doit le decrementer afin de ne pas laisser des cases vide 
-            }
-        }
-        return tab;
-    }
-public void multiplication(int x) //multiplication par x
-{
-	int i;
-	for (i=0; i<this.taille; i++)
-	{
-		this.tab[i]=x*this.tab[i];
-	}
-
-	}
 }
