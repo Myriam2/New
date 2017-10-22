@@ -50,7 +50,7 @@ public void return_min_max()
 	}
 
 
-public void multiplic(int x)
+public void multiplic(int x)// mulltipication 
 {
 	int i;
 	for (i=0; i<this.taille; i++)
