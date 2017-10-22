@@ -19,8 +19,6 @@ public class VectorHelper {
 	 * int valeur de la taille du vecteur
 	 */
 	private int taille;
-	
-	
 	private int[] tab;
 	private int max;
 	private int min;
