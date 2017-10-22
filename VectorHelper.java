@@ -27,7 +27,7 @@ public class VectorHelper {
 	 * @param tai
 	 * @param tab
 	 */
-	public VectorHelper(int tai,int[] tab)
+	public VectorHelper1(int tai,int[] tab)
 	{
 
 		this.taille= tai;
