@@ -18,7 +18,7 @@ public class VectorHelper {
 	/**
 	 * int valeur de la taille du vecteur
 	 */
-	private int tay;
+	private int tai;
 	private int[] tab;
 	private int max;
 	private int min;
@@ -50,7 +50,7 @@ public void return_min_max()
 	}
 
 
-public void multiplic(int x)
+public void multiplic(int x)// mulltipication 
 {
 	int i;
 	for (i=0; i<this.taille; i++)
