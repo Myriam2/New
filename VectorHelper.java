@@ -20,8 +20,8 @@ public class VectorHelper {
 	 */
 	private int tai;
 	private int[] tab;
-	private int max;
-	private int min;
+	private int maxi;
+	private int mini;
 	/**
 	 * Consctucteur de la classe VectorHelper
 	 * @param tai
